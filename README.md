@@ -34,6 +34,7 @@ pip install pycryptodome bcrypt
 ```bash
 SecureEncrypt.py [-h] [-k KEYFILE] [-i IV] [-e | -d] [-o OUTPUT] [-O] [-D] INPUT_FILE
 ```
+Default Password: `password`
 
 ### Positional Arguments
 - **INPUT_FILE:** The file to encrypt, decrypt, or delete.
